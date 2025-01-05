@@ -34,7 +34,7 @@ Follow these steps to set up the project locally:
 
 2. **Install Dependencies**
    ```bash
-   cd ai-project-dashboard
+   cd UI-DEV-ASSIGN-2
    npm install
    ```
 
