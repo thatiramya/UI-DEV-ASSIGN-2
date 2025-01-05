@@ -48,17 +48,77 @@ Follow these steps to set up the project locally:
 ## 📁 Project Structure
 
 ```plaintext
-ai-project-dashboard/
-├── app/                    # Next.js app directory
-│   ├── account/            # Account management
-│   ├── insights/           # Project insights
-│   └── manage/             # Project management
-├── components/             # Reusable components
-│   ├── dashboard/          # Dashboard-specific components
-│   ├── layout/             # Layout components
-│   └── ui/                 # UI components
-├── lib/                    # Utilities and store
-└── public/                 # Static assets
+└── UI-DEV-ASSIGN-2/            # Root directory of the project
+    ├── README.md                         # Documentation file for the project
+    ├── components.json                   # Configuration or list of components
+    ├── next.config.js                    # Next.js configuration file
+    ├── package.json                      # Node.js project metadata and dependencies
+    ├── postcss.config.js                 # Configuration for PostCSS
+    ├── tailwind.config.ts                # Tailwind CSS configuration
+    ├── tsconfig.json                     # TypeScript configuration
+    ├── .eslintrc.json                    # ESLint configuration for linting JavaScript/TypeScript
+    ├── app/                              # Next.js app directory for routing and page management
+    │   ├── globals.css                   # Global CSS styles
+    │   ├── layout.tsx                    # Layout component for consistent structure across pages
+    │   ├── page.tsx                      # Main page component
+    │   ├── account/                      # Directory for account-related pages
+    │   │   └── page.tsx                  # Account management page
+    │   └── manage/                       # Directory for management-related pages
+    │       └── page.tsx                  # Project management page
+    ├── components/                       # Reusable components for the UI
+    │   ├── theme-provider.tsx            # Component for managing theme (light/dark mode)
+    │   ├── account/                      # Components specific to account functionalities
+    │   │   ├── payment-history.tsx       # Component for displaying payment history
+    │   │   └── settings.tsx              # Component for account settings
+    │   ├── dashboard/                    # Components specific to the dashboard
+    │   │   └── project-table.tsx         # Component for displaying a table of projects
+    │   ├── layout/                       # Components related to layout and transitions
+    │   │   ├── content-fade.tsx          # Component for fading content transitions
+    │   │   ├── page-transition.tsx       # Component for page transitions
+    │   │   ├── sidebar.tsx               # Component for the sidebar layout
+    │   │   └── transitions/              # Directory for transition components
+    │   │       ├── fade-in.tsx           # Fade-in transition component
+    │   │       ├── scale-in.tsx          # Scale-in transition component
+    │   │       └── slide-in.tsx          # Slide-in transition component
+    │   ├── manage/                       # Components related to project management
+    │   │   └── project-upload.tsx        # Component for uploading project details
+    │   ├── providers/                    # Directory for provider components
+    │   │   └── app-provider.tsx          # App-wide provider for context management
+    │   └── ui/                           # Generic UI components
+    │       ├── animated-logout-button.tsx # Component for animated logout button
+    │       ├── aspect-ratio.tsx          # Component for maintaining aspect ratio
+    │       ├── avatar.tsx                # Component for user avatars
+    │       ├── badge.tsx                 # Component for badges
+    │       ├── button.tsx                # Button component
+    │       ├── card.tsx                  # Card component
+    │       ├── chart.tsx                 # Component for rendering charts
+    │       ├── checkbox.tsx              # Checkbox component
+    │       ├── collapsible.tsx           # Collapsible component for hiding/showing content
+    │       ├── command.tsx               # Component for command interface
+    │       ├── context-menu.tsx          # Context menu component
+    │       ├── dialog.tsx                # Dialog component for modal windows
+    │       ├── dropdown-menu.tsx         # Dropdown menu component
+    │       ├── hover-card.tsx            # Hover card component
+    │       ├── input.tsx                 # Input field component
+    │       ├── label.tsx                 # Label component
+    │       ├── menubar.tsx               # Menubar component
+    │       ├── navigation-menu.tsx       # Navigation menu component
+    │       ├── progress.tsx              # Progress bar component
+    │       ├── scroll-area.tsx           # Scroll area component for custom scrolling
+    │       ├── select.tsx                # Select dropdown component
+    │       ├── slider.tsx                # Slider component
+    │       ├── switch.tsx                # Switch (toggle) component
+    │       ├── table.tsx                 # Table component
+    │       ├── tabs.tsx                  # Tabs component for tabbed navigation
+    │       ├── textarea.tsx              # Textarea component
+    │       ├── toast.tsx                 # Toast notification component
+    │       └── toaster.tsx               # Component for managing toast notifications
+    ├── hooks/                            # Custom React hooks
+    │   └── use-toast.ts                  # Hook for managing toast notifications
+    └── lib/                              # Utility functions and global store
+        ├── store.ts                      # Centralized store for state management
+        └── utils.ts                      # Utility functions for the application
+
 ```
 
 ---
