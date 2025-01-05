@@ -1,17 +1,12 @@
-```markdown
-# AI Project Management Dashboard 🚀
+# AI Manager🚀
 
-A cutting-edge AI project management dashboard built with **Next.js**, offering real-time analytics, a responsive design, and a seamless user experience. Manage your AI projects efficiently with powerful tools, interactive insights, and a modern interface. 💼
+A cutting-edge AI project management dashboard built with **Next.js, React.js**, offering a responsive design, and a seamless user experience. Manage your AI projects efficiently with powerful tools, and a modern interface. 💼
 
 ## ✨ Features
 
 - **Intuitive Dashboard**: Comprehensive overview of AI projects with real-time status updates.
-- **Advanced Analytics**: Interactive charts and detailed performance metrics visualization. 📊
 - **Responsive Design**: Adaptive layout for all devices with a collapsible sidebar.
-- **Project Management**: Tools for managing AI projects, budgets, and tasks effectively.
 - **Payment Tracking**: Integrated payment history, transaction management, and invoice generation. 💳
-- **User Authentication**: Secure login and personalized user experience.
-- **Dark Mode Support**: Automatic theme detection for a user-friendly interface. 🌓
 
 ---
 
@@ -34,7 +29,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ai-project-dashboard.git
+   git clone https://github.com/thatiramya/UI-DEV-ASSIGN-2.git
    ```
 
 2. **Install Dependencies**
@@ -47,9 +42,6 @@ Follow these steps to set up the project locally:
    ```bash
    npm run dev
    ```
-
-4. **Open in Your Browser**
-   Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
@@ -79,25 +71,18 @@ ai-project-dashboard/
 
 ---
 
-## 🎯 Key Features Implementation
 
-### 1. Responsive Sidebar
-- Adaptive layout for different screen sizes.
-- Smooth transitions using Framer Motion.
-- Collapsible menu for mobile devices.
+![WhatsApp Image 2025-01-06 at 01 18 02_e026a529](https://github.com/user-attachments/assets/0bea530d-b517-4fd4-92b3-bb4c6797a722)
+*Dashboard view*
 
-### 2. Project Analytics
-- Real-time performance tracking.
-- Interactive charts and graphs powered by analytics libraries.
-- Customizable metrics display.
+![WhatsApp Image 2025-01-06 at 01 18 44_2fc9b271](https://github.com/user-attachments/assets/d7bbeab4-6f22-4247-8e6b-d909f5efc203)
+*Manage*
 
-### 3. Payment Management
-- Transaction history tracking.
-- Budget monitoring tools.
-- Invoice generation for seamless financial management.
+![WhatsApp Image 2025-01-06 at 01 19 00_725de4fd](https://github.com/user-attachments/assets/65f32735-143a-4bbc-b986-6e3619e69b2e)
+*Accounts*
 
-![Dashboard Preview](https://via.placeholder.com/800x400)  
-*Example of the intuitive dashboard view.*
+![WhatsApp Image 2025-01-06 at 01 19 26_c9100ea2](https://github.com/user-attachments/assets/55aa235f-428f-4f15-8ece-ed02545469f3)
+*Payment history*
 
 ---
 
