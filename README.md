@@ -48,7 +48,7 @@ Follow these steps to set up the project locally:
 ## 📁 Project Structure
 
 ```plaintext
-└── UI-DEV-ASSIGN-2/            # Root directory of the project
+└── thatiramya/UI-DEV-ASSIGN-2/            # Root directory of the project
     ├── README.md                         # Documentation file for the project
     ├── components.json                   # Configuration or list of components
     ├── next.config.js                    # Next.js configuration file
@@ -131,18 +131,18 @@ Follow these steps to set up the project locally:
 
 ---
 
-
-![WhatsApp Image 2025-01-06 at 01 18 02_e026a529](https://github.com/user-attachments/assets/0bea530d-b517-4fd4-92b3-bb4c6797a722)
 *Dashboard view*
+![WhatsApp Image 2025-01-06 at 01 18 02_e026a529](https://github.com/user-attachments/assets/0bea530d-b517-4fd4-92b3-bb4c6797a722)
 
-![WhatsApp Image 2025-01-06 at 01 18 44_2fc9b271](https://github.com/user-attachments/assets/d7bbeab4-6f22-4247-8e6b-d909f5efc203)
 *Manage*
+![WhatsApp Image 2025-01-06 at 01 18 44_2fc9b271](https://github.com/user-attachments/assets/d7bbeab4-6f22-4247-8e6b-d909f5efc203)
 
-![WhatsApp Image 2025-01-06 at 01 19 00_725de4fd](https://github.com/user-attachments/assets/65f32735-143a-4bbc-b986-6e3619e69b2e)
 *Accounts*
+![WhatsApp Image 2025-01-06 at 01 19 00_725de4fd](https://github.com/user-attachments/assets/65f32735-143a-4bbc-b986-6e3619e69b2e)
 
-![WhatsApp Image 2025-01-06 at 01 19 26_c9100ea2](https://github.com/user-attachments/assets/55aa235f-428f-4f15-8ece-ed02545469f3)
 *Payment history*
+![WhatsApp Image 2025-01-06 at 01 19 26_c9100ea2](https://github.com/user-attachments/assets/55aa235f-428f-4f15-8ece-ed02545469f3)
+
 
 ---
 
